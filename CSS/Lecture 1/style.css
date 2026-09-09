@@ -35,14 +35,3 @@ ul {
 /* 
 github is a platform
 git is a software */
-
-1. git download
-2. check download, git -v
-3. set user name and email :
-  git config --global user.name "your-username"
-  git config --global user.email "your-email"
-4. publish to github
-5. login github in vs code.
-
-// ....
-ctrl + shift + p 
