@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      div {
+        padding: 10px;
+        background: #eef;
+        margin-bottom: 20px;
+      }
+
+      div p {
+        color: black;
+      }
+
+      div > p {
+        font-weight: bold;
+      }
+
+      p::first-letter {
+        font-size: 24px;
+        color: red;
+      }
+
+      p::first-line {
+        text-transform: uppercase;
+      }
+
+      p::selection {
+        background: yellow;
+        color: black;
+      }
+
+      .list-items li:first-child {
+        color: green;
+      }
+
+      .list-items li:last-child {
+        color: red;
+      }
+
+      .list-items li:nth-child(2) {
+        font-weight: bold;
+      }
+
+      .list-items li:nth-last-child(2) {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>This is a direct paragraph inside div.</p>
+      <span>
+        <p>This is nested inside span inside div.</p>
+      </span>
+    </div>
+
+    <ul class="list-items">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+  </body>
+</html>

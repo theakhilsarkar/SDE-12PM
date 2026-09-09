@@ -1,0 +1,48 @@
+/* tag selector - when we select html element by tag. to define default styling of html element*/
+
+/* h1 {
+  font-size: 25px;
+  color: brown;
+} */
+
+/* class selector - when we select html element by class name. to select by class name we have to provide class attribute and class name in html element. in css file we have to write .classname{}
+we can give same class name to multiple different element.
+*/
+
+.third-text {
+  font-size: 50px;
+  color: purple;
+}
+
+.paragraph {
+  font-size: 25px;
+  color: red;
+}
+
+/* ID selector - when we slect element by id. we have to provide id attribute and id name in html element. in css file we have to use #idname{} to provide css. */
+
+#name {
+  color: red;
+  font-size: 90px;
+}
+/* ctrl + spacebar suggestion window */
+ul {
+  list-style: url("right.png");
+}
+
+/* 
+// github platform - version control system */
+/* 
+github is a platform
+git is a software */
+
+1. git download
+2. check download, git -v
+3. set user name and email :
+  git config --global user.name "your-username"
+  git config --global user.email "your-email"
+4. publish to github
+5. login github in vs code.
+
+// ....
+ctrl + shift + p 

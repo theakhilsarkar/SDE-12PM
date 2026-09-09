@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "amazon-bold";
+  src: url("./assets/Amazon\ Ember\ Bold.ttf");
+}
+@font-face {
+  font-family: "amazon-medium";
+  src: url("./assets/Amazon\ Ember\ Medium.ttf");
+}
+@font-face {
+  font-family: "amazon-regular";
+  src: url("./assets/fonts/amazon-regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "amazon-regular";
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: start;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: start;
+}
+.align-items-end {
+  align-items: end;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+nav {
+  position: fixed;
+  height: 60px;
+  width: 1800px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  padding: 0px 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.left-nav img {
+  width: 110px;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 10px;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+}
+
+.left-nav > a {
+  margin-left: 20px;
+}
+
+.join-prime-btn {
+  background-color: #0885eb;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+
+.join-prime-btn:hover {
+  background-color: #1692f8;
+  box-shadow: #1692f8 0px 3px 30px;
+}
+
+.ri-account-circle-line {
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 50%;
+  color: white;
+}
+
+.ri-account-circle-line:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/images/bg.avif");
+}
+
+.language-container {
+  position: relative;
+}
+
+.language-box {
+  width: 600px;
+  /* gap: 10px; */
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  grid-template-columns: repeat(4, 1fr);
+  right: 0;
+  top: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  display: none;
+}
+
+.language-box a {
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.language-container:hover .language-box {
+  display: grid;
+}
+
+/* 
+after hover - box maintain
+box bg - blur
+
+blur -> bg image */

@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 60px;
+  width: 180px;
+  background-color: rgb(255, 49, 84);
+  border-radius: 8px;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.box::after {
+  content: "4";
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.box:hover {
+  box-shadow: 0px 20px 50px rgb(255, 49, 84);
+  /* background-color: yellow;
+  border-radius: 14px; */
+}

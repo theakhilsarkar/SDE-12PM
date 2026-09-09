@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.box {
+  height: 800px;
+  width: 400px;
+  background-color: aliceblue;
+}
+
+.box p {
+  font-size: 18px;
+}
+
+/* .box p span {
+  font-size: 24px;
+} */
+
+.box p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box p::first-line {
+  color: brown;
+}
+
+.box p::selection {
+  background-color: yellow;
+  color: red;
+}
+
+.box p:first-child {
+  color: blue;
+}
+.box p:last-child {
+  color: peru;
+}
+
+.box p:nth-child(3) {
+  color: gold;
+}
+.box p:nth-last-child(3) {
+  color: red;
+}

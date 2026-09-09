@@ -1,0 +1,20 @@
+/* h1 {
+  font-family: "Rubik Spray Paint", system-ui;
+}
+
+p {
+  font-family: "Playwrite DE LA Guides", cursive;
+} */
+/* body {
+  font-family: "Playwrite DE LA Guides", cursive;
+} */
+
+@font-face {
+  font-family: "jay";
+  src: url("impact.ttf") format("truetype");
+}
+
+h1{
+    font-family: "jay", sans-serif;
+    letter-spacing: 2px;
+}

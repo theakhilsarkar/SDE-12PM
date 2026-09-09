@@ -1,0 +1,50 @@
+HTML - Hyper Text Markup Language 
+
+text decorate - assignments
+features - colors, image, list, table ....
+company portfolio
+
+HTML is used for creating structure/layout of the webpage.
+CSS - is used for apply styling/design to layout of the webpage.
+JS - is used to create interactive webpage. JS make layout interactive.
+
+webpage - single page 
+website - collection of webpages
+
+layout -> html provides multiple tags. Each tag have their own different use.
+
+html - root element 
+head - its head of our website, title, link mention
+body - its body of our website, all visibile content
+
+types of element
+
+1. inline element - take space as per content, dont start from new line
+ex. i,b,strong,ins,em,small,big,sub,sup,mark,u,s,del,span
+
+2. block element - take full space(horizontal), alway start from new line
+ex. h1,h2,h3,p,div,ul,ol,li,section,nav,main,header,footer,...
+
+pc - mobile app 
+
+tag
+extra infor pass in tag - attributes
+src = which image will be display 
+alt = if image not load, then which text will be show.
+title = when you hover on image
+
+lecture 2
+
+img tag -> image display, 
+<img src="url/path" alt="photo" title="image title" height="" width=""/>
+
+anchor tag - text/image clickable we can assign action on click.
+
+<a href="url">Home</a> --> navigate to new website - external 
+<a href="page.html">Page</a> navigate to new page - internal
+<a href="#title">Heading</a> navigate withing same page on given id. - bookmark link 
+
+SEO - Search engine optimization
+
+search engine - where we can search 
+google -> website SEO

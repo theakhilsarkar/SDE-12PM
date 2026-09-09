@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.task {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(105, 118, 119);
+}
+.theory {
+  color: white;
+}
+.theory h2 {
+  text-align: center;
+  margin: 20px 0px;
+}
+.theory p {
+  margin-bottom: 10px;
+}
+
+.practical {
+  background-color: cornsilk;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  border-radius: 8px;
+  height: 800px;
+}
+.box {
+  background-color: brown;
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 8px;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: 24px;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+.flex-direction-col-reverse {
+  flex-direction: column-reverse;
+}
